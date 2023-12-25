@@ -14,7 +14,7 @@ chainhook-sdk = { version = "0.11.0", features = ["zeromq"] }
 # chainhook-sdk = { version = "=0.10.1", path = "../../../chainhook/components/chainhook-sdk", default-features = false, features = ["zeromq", "log"] }
 hiro-system-kit = "0.3.1"
 reqwest = { version = "0.11", default-features = false, features = ["stream", "json", "rustls-tls"] }
-tokio = { version = "=1.63.0", features = ["full"] }
+tokio = { version = "=1.35.1", features = ["full"] }
 futures-util = "0.3.24"
 flate2 = "1.0.24"
 tar = "0.4.38"
